@@ -388,6 +388,14 @@ footer
 
 @media screen  and (max-width:1200px)
 {
+    .cabeza1
+    {
+        width: 100%;
+    }
+    .cabeza2
+    {
+        flex-wrap: wrap;
+    }
     section > .imagenes >.imagen1 > .texto1
     {
         font-size: 1rem;
@@ -426,6 +434,10 @@ footer
 }
 @media screen and (max-width: 768px)
 {
+    .cabeza1
+    {
+        width: 100%;
+    }
     article
     {
         width:5% ;
@@ -446,6 +458,7 @@ footer
     }
     .cabeza2
     {
+        flex-wrap: wrap;
        height: 20%; 
     }
     header > .cabeza2 > div
@@ -501,10 +514,14 @@ footer
 }
 @media screen and (max-width: 576px)
 {
+    .cabeza1
+    {
+        width: 100%;
+    }
     section > .imagenes > .imagen2 > .texto3
     {
         font-size: 0.5rem;
-        top: 70%;
+        top: 60%;
     }
     section > .imagenes >.imagen1 > .texto1
     {
@@ -512,6 +529,7 @@ footer
     }
     section > .imagenes >.imagen1 > .texto2
     {
+        font-size: 0.5rem;
         top: 70%;
         right: 10%;
         
@@ -551,6 +569,7 @@ footer
     }
     .cabeza2
     {
+        flex-wrap: wrap;
         height: 14%;
     }
     .cabeza2 > div
