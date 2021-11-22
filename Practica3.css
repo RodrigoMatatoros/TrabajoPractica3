@@ -501,20 +501,25 @@ footer
 }
 @media screen and (max-width: 576px)
 {
+    section > .imagenes > .imagen2 > .texto3
+    {
+        font-size: 0.5rem;
+        top: 70%;
+    }
     section > .imagenes >.imagen1 > .texto1
     {
-        font-size: 0.6rem;
+        font-size: 0.5rem;
     }
     section > .imagenes >.imagen1 > .texto2
     {
         top: 70%;
         right: 10%;
-        font-size: 0.6rem;
+        
     }
     section > .imagenes > .imagen3 > .texto4
     {
         left: 9%;
-        font-size: 0.6rem;
+        font-size: 0.5rem;
         top: 70%;
     }
     section > .imagenes > .imagen3 > .texto5
@@ -531,25 +536,26 @@ footer
     }
     header > .cabeza1 > .primerParrafo > .otaku
     {
+        font-size: 1.5rem;
         top: 15%;
     }
     header > .cabeza1 > .primerParrafo > .center
     {
+        font-size: 1.5rem;
         top: 31%;
     }
     section > .imagenes > .imagen2 > .texto3
     {
         font-size: 0.6rem;
-        top: 70%;
-    }
-    header > .cabeza2 > div
-    {
-        font-size:0.6rem;
         
     }
     .cabeza2
     {
         height: 14%;
+    }
+    .cabeza2 > div
+    {
+        font-size: 1rem;
     }
     nav
     {
