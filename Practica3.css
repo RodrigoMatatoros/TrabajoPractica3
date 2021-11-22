@@ -390,7 +390,7 @@ footer
 {
     section > .imagenes >.imagen1 > .texto1
     {
-        font-size: 1.2rem;
+        font-size: 1rem;
         
     }
     section > .imagenes >.imagen1 > .texto2
@@ -401,21 +401,27 @@ footer
     }
     section > .imagenes > .imagen2 > .texto3
     {
-        font-size: 1.2rem;
+        font-size: 1rem;
         top:75%;
     }
     section > .imagenes > .imagen3 > .texto4
     {
-        font-size: 1.2rem;
+        font-size: 1rem;
         top: 75%;
         right: 10%;
     }
     section > .imagenes > .imagen3 > .texto5
     {
-        font-size: 1.2rem;
+        font-size: 1rem;
         top: 80%;
         right: 10%;
     }
+    article
+
+    {
+        width: 9%;
+    }
+
     
 }
 @media screen and (max-width: 768px)
@@ -438,6 +444,10 @@ footer
     {
         font-size: 1rem;
     }
+    .cabeza2
+    {
+       height: 20%; 
+    }
     header > .cabeza2 > div
     {
         font-size: 1rem;
@@ -445,6 +455,7 @@ footer
     header > .cabeza1 > .segundoParrafo
     {
         padding-left: 10%;
+        font-size: 0.9rem;
     }
     section > .imagenes >.imagen1 > .texto1
     {
@@ -465,7 +476,7 @@ footer
     section > .imagenes > .imagen3 > .texto4
     {
         font-size: 0.9rem;
-        top: 75%;
+        top: 70%;
         right: 10%;
     }
     section > .imagenes > .imagen3 > .texto5
@@ -482,34 +493,39 @@ footer
     {
         font-size: 15px;
     }
+    .buscador input
+    {
+        width: 130%;
+    }
 
 }
 @media screen and (max-width: 576px)
 {
     section > .imagenes >.imagen1 > .texto1
     {
-        font-size: 0.8rem;
+        font-size: 0.6rem;
     }
     section > .imagenes >.imagen1 > .texto2
     {
-        right: 7%;
-        font-size: 0.8rem;
+        top: 70%;
+        right: 10%;
+        font-size: 0.6rem;
     }
     section > .imagenes > .imagen3 > .texto4
     {
         left: 9%;
         font-size: 0.6rem;
-        top: 77%;
+        top: 70%;
     }
     section > .imagenes > .imagen3 > .texto5
     {
         left: 9%;
-        font-size: 0.6rem;
-        top: 84%;
+        font-size: 0.5rem;
+        top: 77%;
     }
     header > .cabeza1 >.segundoParrafo
     {
-        font-size: 1rem;
+        font-size:0.9rem;
         padding-left: 20%;
         text-align: center;
     }
@@ -523,12 +539,12 @@ footer
     }
     section > .imagenes > .imagen2 > .texto3
     {
-        font-size: 0.7rem;
+        font-size: 0.6rem;
         top: 70%;
     }
     header > .cabeza2 > div
     {
-        font-size:0.8rem;
+        font-size:0.6rem;
         
     }
     .cabeza2
@@ -537,13 +553,10 @@ footer
     }
     nav
     {
-       
+       float: unset;
         width: 90%;
         margin-left: 2px;
-    }
-    nav 
-    {
-        float: unset;
+        font-size: 0.6rem;
     }
     article
     {
@@ -555,7 +568,19 @@ footer
     }
     footer >.listaFooter  div
     {
-        font-size: 0.75rem;
+        font-size: 0.6rem;
     }
-
+    .buscador input
+    {
+        width: 150%;
+    }
+    .royale p
+    {
+        font-size: 0.6rem;
+    }
+    .siguenos > table img
+    {
+        width: 1rem;
+        height: 1rem;
+    }
 }
